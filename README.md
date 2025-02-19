@@ -48,3 +48,20 @@ While learning react let's take some notes now shall we-
 
    Lets say we got a list component which lists out names of different cities but now we'd like to have this list display out names of flowers.
    We'll use "Props" to accomplish this.
+
+2. https://react.dev/learn
+
+   Refer to the above react documentation to quick get up to speed with the basics of react and covers topics like-
+
+   Creating and nesting components
+   Writing markup with JSX 
+   Adding styles
+   Displaying data
+   Conditional rendering
+   Rendering lists
+   Responding to events
+   Updating the screen
+   Using Hooks
+   Sharing data between components (basically props)
+
+   
