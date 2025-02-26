@@ -49,7 +49,14 @@ While learning react let's take some notes now shall we-
    Lets say we got a list component which lists out names of different cities but now we'd like to have this list display out names of flowers.
    We'll use "Props" to accomplish this.
 
-2. https://react.dev/learn
+   The difference between Props and State in react is:
+   Props are inputs or properties passed to a componnet, state on the other hand is the internal data that can change over time.
+   Props should be treated like immutable elements (read only), State on the other hand is mutable.
+   Anytime either of Props or State change react will re-render and update the DOM according to it.
+
+   
+
+3. https://react.dev/learn
 
    Refer to the above react documentation to quick get up to speed with the basics of react and covers topics like-
 
