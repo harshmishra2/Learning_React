@@ -1,0 +1,37 @@
+Props are how we pass data from one component to another.  <component1/> ------------> <compnent2/>
+They allow components to be dynamic and reusable.
+Props is a js object when being passed as a parameter in the function (Welcome in this case). Take your prop and pass value to it which will be done in the app.jsx.
+Use curly braces to put javaScript in it give it keys and values. 
+
+
+Welcome.jsx
+
+function Welcome(props){
+return(
+  <h1>
+    Welcome {props.name}
+  <h1/>);
+}
+export default Welcome;
+
+
+App.jsx
+
+import "React" from react;
+import "Welcome" from "./components/Welcome"
+
+const App = () = > {
+  return (
+  <div>
+    <Welcome name = "Learn React" />
+    <Welcome name = "Harsh" />
+  <div/>
+  );
+};
+export default App;
+
+
+The output result on (like the one on the localhost will be):
+
+Welcome Learn React
+Welcome Harsh
